@@ -1,0 +1,24 @@
+Bug ID: BUG-001
+Title: Alert not triggered at threshold value
+
+Severity: High
+Priority: High
+
+Steps to Reproduce:
+1. Pass temperature value as 80
+2. Observe system response
+
+Expected Result:
+System should trigger ALERT
+
+Actual Result:
+System returned NORMAL
+
+Root Cause:
+Incorrect comparison operator used in alert condition
+
+Fix:
+Updated condition from > to >=
+
+Status:
+Fixed and verified

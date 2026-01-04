@@ -1,0 +1,28 @@
+Test Plan – Temperature Monitoring System
+
+Objective:
+To validate the functionality and reliability of the temperature monitoring logic using manual and automated testing.
+
+Scope:
+- Temperature validation
+- Alert triggering
+- Error handling
+- Logging verification
+
+Test Types:
+- Functional Testing
+- Boundary Testing
+- Negative Testing
+- Regression Testing
+
+Test Environment:
+- Python 3.x
+- VS Code
+- Linux/Windows
+
+Entry Criteria:
+- Application code available
+
+Exit Criteria:
+- All critical test cases executed
+- All high severity defects fixed

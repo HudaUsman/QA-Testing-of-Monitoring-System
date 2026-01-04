@@ -1,0 +1,19 @@
+TC01: Verify normal temperature handling
+Input: 40
+Expected Result: NORMAL
+
+TC02: Verify alert when temperature > threshold
+Input: 90
+Expected Result: ALERT
+
+TC03: Verify boundary condition at threshold
+Input: 80
+Expected Result: ALERT
+
+TC04: Verify invalid temperature input
+Input: None
+Expected Result: ERROR
+
+TC05: Verify log entry creation
+Input: 85
+Expected Result: Warning log generated
